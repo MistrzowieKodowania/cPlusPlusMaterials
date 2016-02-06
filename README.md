@@ -24,3 +24,4 @@ Pozosta³e
 
 - [Kurs C++](http://algorytm.edu.pl/wstp-do-c)
 - [Kurs C++](http://cpp0x.pl/)
+- [Gdzie szukaæ rozwi¹zañ problemów? StackOverflow](http://stackoverflow.com/)
