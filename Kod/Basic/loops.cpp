@@ -1,16 +1,18 @@
 #include <iostream>
 using namespace std;
 
-enum { EXIT, HORRIBLE, BAD, GOOD, EXCELLENT };
+enum { EXIT, HORRIBLE, BAD, GOOD, EXCELLENT }; // typ wyliczeniowy, nie musi mieæ nazwy
 
 int main()
 {
 	int decision;
-	bool exit = false;
+	bool exit = false; // typ logiczny, wartoœci: true, false
 	
 	// while loop
-	while (!exit)
-	{
+	while (!exit) // dopóki warunek prawdziwy, wykonuj kod
+	{             // ! - negacja
+	              // !exit = true (na pocz¹tku)
+	              // while( warunek )
 		cout << "What do you think about programming?" << endl;
 		cout << "Choose one option: 1: horrible, 2: bad, 3: good, 4: excellent, 0: EXIT" << endl;
 		cin >> decision;
@@ -34,24 +36,28 @@ int main()
 	system("pause");
 	
 	// do while
-	int a = 10;
+	int a = 10; // int = integer
 	cout << "Counting: ";
-	do
+	do // nie ma warunku! kod po "do" wykona siê na pewno conajmniej raz.
 	{
 		cout << a << " ";
-		a--;
-	} while ( a > 0 );
+		a--; // -- : operator dekrementacji
+	} while ( a > 0 ); // pêtla skoñczy siê jak a bêdzie równe 0, wyœwietlone zostanie 10 9 8 7 6 5 4 3 2 1
 	cout << endl;
 
-	system("pause");
+	system("pause"); // zatrzymanie programu z komunikatem ;)
 
 	// for
 	cout << "Steps: ";
-	for ( int step = 0; step < 10; step++ )
-	{
+	for ( int step = 0; step < 10; step++ ) // ++ - operator inkrementacji
+	{ // ++ = +1 
+	  // -- = -1
 		cout << step << " ";
 	}
 	cout << endl;
+	
+	// a++ - dzia³a póŸniej ni¿ coœ (wyjaœnienie na nastêpnych zajêciach)
+	// ++a - dzia³a wczeœniej ni¿ coœ (wyjaœnienie na nastêpnych zajêciach)
 	
 	return 0;
 }
