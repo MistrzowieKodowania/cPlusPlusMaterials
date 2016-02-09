@@ -1,4 +1,4 @@
 *~
 *.o
 *.exe
-!PracaDomowa/*/*.exe
+!Praca-Domowa/*/*.exe

@@ -1,17 +1,14 @@
 Webinarium C++
 ==================
 
+[Link do pokoju](https://mistrzowiekodowania.clickwebinar.com/cplusplus)
+
 Projekty
 -----------
 - Agent wywiadu
 - Grafik
 - In¿ynier dŸwiêku
 - Bibliotekarz
-
-Webinarium
------------
-
-[Link do pokoju](https://mistrzowiekodowania.clickwebinar.com/cplusplus)
 
 Tutoriale
 -----------
