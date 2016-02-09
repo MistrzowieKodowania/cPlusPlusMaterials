@@ -8,6 +8,11 @@ Projekty
 - In¿ynier dŸwiêku
 - Bibliotekarz
 
+Webinarium
+-----------
+
+[Link do pokoju](https://mistrzowiekodowania.clickwebinar.com/cplusplus)
+
 Tutoriale
 -----------
 - [CodeBlocks IDE C++ Linux AVI](https://www.dropbox.com/s/neo9d93n0vemzsy/Tutorial%20Linux%20CodeBlocks.avi?dl=0)
