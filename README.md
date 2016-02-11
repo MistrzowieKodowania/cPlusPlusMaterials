@@ -21,6 +21,7 @@ Tutoriale
 - [Git. Jak zalozyc konto?](https://www.youtube.com/watch?v=c3wkU2sQINc&feature=youtu.be)
 - [Git. Jak korzystac?](https://www.youtube.com/watch?v=88LT17aRl7Y&feature=youtu.be)
 - [Klient GitHuba. Szczegoly](https://www.dropbox.com/s/cidu19f1xc9ddrl/GitHub%20client%20details.avi?dl=0)
+- [Git. Konsola](https://www.dropbox.com/s/owy6ji37ufkum6f/Git%20console.avi?dl=0)
 
 Ksiazki
 -----------
