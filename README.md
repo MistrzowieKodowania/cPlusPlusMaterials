@@ -34,3 +34,4 @@ Pozostale
 - [Kurs C++](http://algorytm.edu.pl/wstp-do-c)
 - [Kurs C++](http://cpp0x.pl/)
 - [Gdzie szukac rozwiazan problemow? StackOverflow](http://stackoverflow.com/)
+- [Lista bibliotek i nie tylko do C++](http://www.cplusplus.com/reference/)
