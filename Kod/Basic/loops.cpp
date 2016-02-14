@@ -15,7 +15,13 @@ int main()
 	              // while( warunek )
 		cout << "What do you think about programming?" << endl;
 		cout << "Choose one option: 1: horrible, 2: bad, 3: good, 4: excellent, 0: EXIT" << endl;
-		cin >> decision;
+		while ( ! (cin >> decision) )
+		{
+			cout << "Not integer. Try one more time" << endl;
+			cin.clear();
+			cin.ignore();
+		}
+		
 		switch( decision )
 		{
 			case EXIT:
