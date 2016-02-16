@@ -6,7 +6,7 @@ Webinarium C++
 Nagrania:
 - [02.02.2016] (https://drive.google.com/file/d/0B6EbbxOzwaSRa3YyLWp6eVhBMms/view)
 - [09.02.2016](https://drive.google.com/file/d/0BzgO0hOQGTyGT0ZMNUpta0g2Wlk/view)
-- [16.02.2016]
+- [16.02.2016] (https://drive.google.com/file/d/0B6EbbxOzwaSROHpiUXRBQ3Y1Mzg/view)
 
 Projekty
 -----------
