@@ -4,7 +4,9 @@ Webinarium C++
 [Link do pokoju](https://mistrzowiekodowania.clickwebinar.com/cplusplus)
 
 Nagrania:
+[02.02.2016] (https://drive.google.com/file/d/0B6EbbxOzwaSRa3YyLWp6eVhBMms/view)
 [09.02.2016](https://drive.google.com/file/d/0BzgO0hOQGTyGT0ZMNUpta0g2Wlk/view)
+[16.02.2016]
 
 Projekty
 -----------
