@@ -1,5 +1,14 @@
 #include "functions.h"
 
+// & - referencjê
+// referencja u¿yta jako argument funkcji powoduje, ¿e 
+// ten argument nie jest kopiowany
+// domyœlnie przekazuj¹c coœ do funkcji
+// system operacyjny kopiuje wartoœæ tego czegoœ z komórki pamiêci
+// do innej komórki pamiêci
+// 
+// u¿ywaj¹c referencji nie kopiujemy tylko dzia³amy dok³adnie na tej
+// samej pamiêci!
 void set_record( Record& record, string name, string surname, int day, int month, int year )
 {
 	record.name = name;
@@ -42,13 +51,15 @@ void bubble_sort_by_name(Record_Class library[], int size)
 	{
 		for ( int j = 1; j < size; j++ )
 		{
-			if ( library[j - 1] > library[j] )
+			if ( library[j - 1] > library[j] ) // u¿ycie operatora wiêkszoœci
 			{
 				// zamieñ pozycje
-				Record_Class previous = library[ j - 1 ];
+				Record_Class previous = library[ j - 1 ]; // tutaj nasz obiekt jest kopiowany
 				library[j - 1 ] = library[j];
-				library[j] = previous;
+				library[j] = previous; // tutaj te¿ siê kopiuje
 			}
+			// tutaj wywo³uje siê destruktor "previous"
+			// tylko raz - poniewa¿ zamiana jest wykonywana tylko raz!
 		}
 	}
 }
@@ -69,7 +80,7 @@ void print( Record library[], int size )
 
 void print( Record_Class library[], int size ) 
 {
-	cout << "----------------------------------" << endl;
+	cout << "------------Class--------------------" << endl;
 	for ( int i = 0; i < size; i++ )
 	{
 		library[i].print_record();

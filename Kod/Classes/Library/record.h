@@ -2,6 +2,9 @@
 #include <string>
 using namespace std;
 
+// struktura
+// pierwowzór klas
+// pochodzi z Jêzyka C
 struct Date
 {
 	int day;
@@ -9,6 +12,9 @@ struct Date
 	int year;
 };
 
+// struktura
+// pierwowzór klas
+// pochodzi z Jêzyka C
 struct Record
 {
 	string name;
