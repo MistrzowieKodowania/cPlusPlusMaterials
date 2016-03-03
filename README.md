@@ -8,6 +8,7 @@ Nagrania:
 - [09.02.2016](https://drive.google.com/file/d/0BzgO0hOQGTyGT0ZMNUpta0g2Wlk/view)
 - [16.02.2016] (https://drive.google.com/file/d/0B6EbbxOzwaSROHpiUXRBQ3Y1Mzg/view)
 - [23.02.2016] (https://drive.google.com/file/d/0B6EbbxOzwaSRLTBpdmlyenhGN2s/view?usp=sharing)
+- [Git Hub, 02.03.2016] (https://drive.google.com/file/d/0B9JKKV7mT1EjeUdHdUNnajFsTjQ/view?usp=sharing)
 
 Projekty
 -----------
@@ -38,3 +39,5 @@ Pozostale
 - [Kurs C++](http://cpp0x.pl/)
 - [Gdzie szukac rozwiazan problemow? StackOverflow](http://stackoverflow.com/)
 - [Lista bibliotek i nie tylko do C++](http://www.cplusplus.com/reference/)
+- [Git Hub - prosty przewodnik] (http://rogerdudler.github.io/git-guide//index.pl.html)
+- [Git Hub - prezentacja Code Carrots] (http://codecarrotsjs.github.io/prezentacja-git/#/13)
