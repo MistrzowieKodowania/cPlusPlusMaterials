@@ -13,12 +13,12 @@ Nagrania:
 Harmonogram
 -----------
 
-- 2.02 19.00 Podstawy jêzyka C++
-- 9.02 19.00 Podstawy jêzyka C++, cz.2
+- 2.02 19.00 Podstawy jezyka C++
+- 9.02 19.00 Podstawy jezyka C++, cz.2
 - 16.02 19.00 Tablice i funkcje
 - 23.02 19.00 Klasy i obiekty
 - 8.03 19.00 Klasy i obiekty
-- 22.03 19.00 Ob³uga plików
+- 22.03 19.00 Obluga plikow
 - 5.04 19.00 Metody wirtualne
 - 19.04 19.00 Poliformizm i szablony
 - 10.05 19.00 Poliformizm i szablony
