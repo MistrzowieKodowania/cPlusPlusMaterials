@@ -15,19 +15,19 @@ int main()
 		cout << "You could use: +, sqrt as in the examples" << endl;
 		cout << "Use Q/q to exit" << endl;
 	
-		getline(cin, operation);
+		getline(cin, operation); // pozwala nam czytaæ linie razem ze spacjami!
 		if ( operation == "Q" || operation == "q"  )
 		{
 			break;
 		}
 		
-		Operation request = parse_operation(operation);
+		Operation request = parse_operation(operation); // parsujemy operacjê - sprawdzamy jczym ona jest
 		system("cls");
-		if ( request.sign != "+" && request.sign != "sqrt" )
+		if ( request.sign != "+" && request.sign != "sqrt" ) // sprawdzamy czy u¿ytkownik wybra³ sumê lub pierwiastek prawid³owo
 		{	
-			continue;
+			continue; // przenosi nas na pocz¹tek pêtli
 		}
-		double result = run_operation( request );
+		double result = run_operation( request ); // wykonujemy operacjê (sumy lub pierwiastka)
 		
 		cout << "Your result: " << result << endl;
 	}
