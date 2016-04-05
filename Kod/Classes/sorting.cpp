@@ -3,7 +3,7 @@
 #include <string>
 #include <sstream>
 #include <vector>
-#include <algorithm>
+#include <algorithm> // tutaj jest sortowanie
 using namespace std;
 
 struct Date
@@ -19,7 +19,10 @@ struct Event
 	Date date;	
 };
 
+// to nam porówna dwa wydarzenia
 bool compare_events (Event& first, Event& second);
+
+// pomocnicza funkcja do wczytanie wydarzeñ od u¿ytkownika
 void read_calendar(vector<Event>& events);
 bool check(string& birth);
 Date create(string& birth);
@@ -36,9 +39,24 @@ void print_event(Event& event)
 	print_date(event.date);
 }
 
+bool compare_dates( Date& first, Date & second );
+
+// do porównywania wydarzeñ
 bool compare_events (Event& first, Event& second)
 {
-	return first.name < second.name;	
+	// sortowanie wzglêdem nazwy
+	// porównujemy ze sob¹ nazwy
+//	return first.name < second.name;	
+	
+	return compare_dates(first.date, second.date);
+}
+
+bool compare_dates( Date& first, Date & second )
+{
+	// coœ implementujemy
+	return first.year < second.year ||
+	    (first.year == second.year && first.month < second.month) ||
+	    (first.year == second.year && first.month == second.month && first.day < second.day);
 }
 
 int main()
@@ -54,6 +72,7 @@ int main()
 		for( int i = 0; i < events.size(); i++ )
 			print_event(events[i]);
 	
+		// sortowanie
 		sort( events.begin(), events.end(), compare_events );
 		
 		cout << "Your sorted calendar: " << endl;

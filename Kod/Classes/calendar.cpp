@@ -36,7 +36,7 @@ void print_event(Event& event)
 int main()
 {
 	string event;
-	vector<Event> events;
+	vector<Event> events; // mamy worek na wydarzenia które chcemy zapamiêtaæ
 
 	while(1)
 	{
@@ -59,22 +59,28 @@ int main()
 			break;
 			
 		Date important = create(date);
-		Event event = { name, important };
-		events.push_back(event);		
+		Event event = { name, important }; // inicjalizacja struktury wydarzenia
+		events.push_back(event);	// wrzucamy wydarzenie do worka
 	}
 	
+	// jeœli worek nie jest pusty 
 	if ( !events.empty() )
 		cout << "Your calendar: " << endl;
 	
+	// size - zwraca rozmiar worka
+	// pêtla jest identyczna jak przy tablicy
 	for( int i = 0; i < events.size(); i++ )
-		print_event(events[i]);
+		print_event(events[i]); // odwo³ujemy siê jak do tablicy
 	
 	system("pause");
 	
+	// iterator
+	//events.begin() -> to pierwszy element (czyli indeks 0)
+	//events.begin() + x -> to elementu o numerze x (czyli indeks x - 1)
 	for( vector<Event>::iterator it = events.begin();
-		 it != events.end(); it++ )
+		 it != events.end(); it++ ) // taki wskaŸnik, który przesuwamy od pocz¹tku do koñca
 	{
-		print_event(*it);
+		print_event(*it); // tutaj do elementu odwo³ujemy siê jak do wskaŸnika 
 	}
 	return 0;
 }
