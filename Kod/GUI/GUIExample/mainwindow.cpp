@@ -18,3 +18,11 @@ void MainWindow::on_pushButton_clicked()
     about = new AboutDialog(this);
     about->exec();
 }
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    QString mytext = ui->mainText->toPlainText();
+    about = new AboutDialog(this);
+    about->aboutText->setText(mytext);
+    about->exec();
+}

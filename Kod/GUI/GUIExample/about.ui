@@ -26,6 +26,29 @@
     <string>A kuku!</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>200</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="aboutText">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>30</y>
+     <width>271</width>
+     <height>101</height>
+    </rect>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

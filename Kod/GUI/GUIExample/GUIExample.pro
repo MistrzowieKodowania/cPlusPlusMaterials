@@ -20,4 +20,5 @@ HEADERS  += mainwindow.h \
     aboutdialog.h
 
 FORMS    += mainwindow.ui \
-    about.ui
+    about.ui \
+    dialog.ui

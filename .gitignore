@@ -4,5 +4,5 @@
 !Praca-Domowa/*/*.exe
 *.layout
 *.win
-Kod/GUI/GUIExample/GUIExample.pro.user
-Kod/GUI/build-GUIExample-Desktop_Qt_5_6_0_MinGW_32bit-Debug/
+Kod/GUI/*/*.pro.user
+Kod/GUI/build-*-Desktop_Qt_5_6_0_MinGW_32bit-Debug/

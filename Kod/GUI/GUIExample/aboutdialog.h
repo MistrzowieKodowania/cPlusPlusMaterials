@@ -2,7 +2,10 @@
 #define ABOUTDIALOG_H
 #include <ui_about.h>
 
-class AboutDialog : public QDialog, public Ui::About
+// Moje okno dialogowe dziedziczy po standardowym oknie dialogowym Qt
+// w ten sposób dostaje wszystkie cechy tego okna
+// m.in może być rozszerzane, klikalne, zamykane maksymalizowane
+class AboutDialog : public QDialog, public Ui::About // ta nazwa pochodzi z about.ui
 {
     Q_OBJECT
 
