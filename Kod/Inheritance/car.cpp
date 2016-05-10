@@ -8,7 +8,8 @@ Car::Car() : Vehicle(4)
 int Car::get_wheels_number()
 {
 	cout << "Car" << endl;
-	return Vehicle::get_wheels_number();
+	return Vehicle::get_wheels_number(); // tutaj wywo³ujemy funkcjeê z klasy bazowej
+	                                     // coœ a la rzutowanie
 }
 
 Car::~Car()

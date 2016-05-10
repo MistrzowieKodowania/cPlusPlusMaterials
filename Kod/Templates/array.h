@@ -4,6 +4,9 @@
 #include "outofrange.h"
 using namespace std;
 
+// szablon wymaga jednego pliku
+// dziwne konstrukcje: "template<class ...>"
+// powtórzone przy metodzie (jej implementacji)
 template<class Type, int size>
 class Array
 {

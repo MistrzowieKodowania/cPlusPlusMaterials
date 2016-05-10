@@ -26,7 +26,7 @@ Harmonogram
 - 5.04 19.00 Metody wirtualne
 - 19.04 19.00 Poliformizm i szablony
 - 10.05 19.00 Poliformizm i szablony
-- 24.05 19.00 Co dalej ? 
+- 17.05 19.00 Co dalej ? 
 
 Projekty
 -----------

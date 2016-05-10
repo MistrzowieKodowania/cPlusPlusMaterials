@@ -11,6 +11,7 @@ class Vehicle
 	public:
 		Vehicle( int wheels ); // konstruktor
 		~Vehicle(); // destruktor wywo³ywany jak obiekt ulega zniszczeniu
+		//virtual double prognoza_zysk_firmy() = 0;
 		virtual int get_wheels_number() = 0; // zwróæ liczbê kó³ pojazdu
 		                                 // dziêki u¿yciu virtual kompilator bêdzie
 		                                // wiedzia³, ¿e powinien odnosiæ siê do klasy pochodnej

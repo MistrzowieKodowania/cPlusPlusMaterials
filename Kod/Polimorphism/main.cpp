@@ -7,12 +7,15 @@ int main(int argc, char** argv)
 {
 	Vehicle* car = new Car();  // obiekt pochodny umieszczany jest we wskaŸniku
 	Vehicle* bike = new Bike(); // do obiektu bazowego - to jest polimorfizm
+	Vehicle* car2 = new Car();  // obiekt pochodny umieszczany jest we wskaŸniku
+
 
 	vector<Vehicle*> vehicles; // dziêki temu mo¿emy utworzyæ kolekcjê
 	vehicles.push_back(car); // która bêdzie mog³a zawieraæ
 	vehicles.push_back(bike); // obiekty klasy pochodnej (mimo, ¿e s¹ ró¿nego typu)
 	                          // a ju¿ kompilator zadba o to aby
 	                        // wywo³ano w³aœciw¹ metodê
+	vehicles.push_back(car2); // która bêdzie mog³a zaw
 	
 	// dziêki polimorfizmowi mo¿emy napisaæ
 	// program bardziej uniwersalny i krótszy

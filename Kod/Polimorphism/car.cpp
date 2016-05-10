@@ -7,7 +7,7 @@ Car::Car() : Vehicle(4)
 
 int Car::get_wheels_number()
 {
-	cout << "Car" << endl;
+	cout << "Car ----- " << endl;
 	return Vehicle::get_wheels_number();
 }
 

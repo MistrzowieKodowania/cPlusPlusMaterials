@@ -1,4 +1,4 @@
-#include <exception>
+#include <exception> // biblioteki wyj¹tków
 using namespace std;
 
 // wyj¹tki - jak coœ z³ego siê dzieje mo¿emy zwróciæ wyj¹tek
@@ -17,5 +17,4 @@ class OutOfRange : public exception
   
   	private:
 		int i;
-  
 };
