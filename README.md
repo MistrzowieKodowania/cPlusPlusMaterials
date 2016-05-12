@@ -13,6 +13,7 @@ Nagrania:
 - [22.03.2016] (https://drive.google.com/file/d/0B9JKKV7mT1EjbEpNRjJqLV9uRGc/view?usp=sharing)
 - [5.04.2016] (https://drive.google.com/file/d/0B9JKKV7mT1EjV041YU15VngxaU0/view?usp=sharing)
 - [26.04.2016] (https://drive.google.com/file/d/0B9JKKV7mT1EjQmtkQ0liUkFpRTg/view)
+- [10.05.2016] (https://drive.google.com/file/d/0B9JKKV7mT1EjZWpvc3M1S0x2S2s/view?usp=sharing)
 
 Harmonogram
 -----------
